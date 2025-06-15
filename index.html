@@ -1,0 +1,219 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Personal Portfolio Website</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/d520e1d6ef.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <div id="header"> 
+        <div class="container">
+            <nav>
+                <h1 class="logo"><span class="one">G</span>opinath.</h1>
+                <ul id="sidemenu">
+                    <li><a href="#header">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#services">Services</a></li>
+                    <li><a href="#portfolio">Portfolio</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                    <i class="fas fa-times" onclick="closmenu()"></i>
+                </ul>
+                <i class="fas fa-bars" onclick="openmenu()"></i>
+
+            </nav>
+            <div class="header-text">
+                <p>Full Stack Developer</p>
+                <h1>Hi, I'm <span>Gopinath</span> <br>Nallusamy From India</h1>
+            </div>
+        </div>
+    </div>
+    <div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="about-col-1">
+                    <img src="/images/id 3.jpg">
+                </div>
+                <div class="about-col-2">
+                    <h1 class="sub-title">About Me</h1>
+                    <p>As a detail-oriented and ambitious professional, I'm Gopinath, with a strong educational
+                        background in Mechanical Engineering (B.E.) and Business Administration (MBA in Human Resource
+                        and Finance). Currently, I'm expanding my skill set by pursuing a Full Stack Developer course,
+                        with a focus on transitioning into the IT industry. With a unique blend of technical and
+                        business skills, I'm eager to leverage my expertise in problem-solving, critical thinking, and
+                        collaboration to drive innovation and growth in a dynamic and forward-thinking organization.</p>
+                    <div class="tab-titles">
+                        <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                        <p class="tab-links" onclick="opentab('experience')">Experience</p>
+                        <p class="tab-links" onclick="opentab('education')">Education</p>
+                    </div>
+                    <div class="tab-contents active-tab" id="skills">
+                        <ul>
+                            <li><span>Front End </span><br>HTML, CSS, JavaScript, Bootstrap</li>
+                            <li><span>Fream work </span><br>Angular,React</li>
+                            <li><span>Back End </span><br>JAVA</li>
+                            <li><span>DataBase </span><br>MySQL</li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="experience">
+                        <ul>
+                            <li><span>Fresher</span><br></li>
+                            <li><!-- <span>Back End </span><br> -->As a fresh and ambitious individual, I'm eager to embark on a challenging and rewarding journey in the IT industry. With a strong foundation in computer science and a passion for learning, I'm excited to apply my skills and knowledge to drive innovation and growth.
+                            </li>
+                        <!-- <li><span>DataBase </span><br>MySQL</li>
+                        <li><span>Fream work </span><br>Angular,React</li> -->
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="education">
+                        <ul>
+                            <li><span>2016</span><br>SSLC at GOVT HR SEC School</li>
+                            <li><span>2018</span><br>HSC at NANAKKAL KONGU MATRIC HR SCE School</li>
+                            <li><span>2022</span><br>B.E Mechanical Engineering at Anna University Chennai</li>
+                            <li><span>2024</span><br>MBA from Anna University Chennai</li>
+                            <li><span>2025</span><br>Full Stack Developer at Besant Technology</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div id="services">
+        <div class="container">
+            <h1 class="sub-title">My Services</h1>
+            <div class="services-list">
+                <div>
+                    <i class="fa-solid fa-code"></i>
+                    <h2>Front End Developer</h2>
+                    <p>
+                        Custom web applications, responsive designs, and optimized user experiences. I'M specialize in HTML CSSS JavaScript,Bootstrap, React, Angular development. Elevate your online presence with our expertise."</p>
+                    <a href="#">Learn more</a>
+                </div>
+                <div>
+                    <i class="fa-sharp fa-solid fa-crop"></i>
+                    <h2>Back End Developer</h2>
+                    <p>Building scalable, secure, and high-performance backend solutions with Java, Spring, and Hibernate. Our team crafts robust APIs and server-side applications to power your digital transformation.</p>
+                    <a href="#">Learn more</a>
+                </div>
+                <div>
+                    <i class="fa-brands fa-app-store-ios"></i>
+                    <h2>Data base</h2>
+                    <p>Designing, developing, and optimizing scalable, secure, and high-performance databases with MySQL, Oracle, and PostgreSQL. Our team ensures data integrity, reliability, and efficiency.</p>
+                    <a href="#">Learn more</a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div id="portfolio">
+        <div class="container">
+            <h1 class="sub-title">My Work</h1>
+            <div class="work-list">
+                <div class="work">
+                    <img src="/images/work-image (1).jpg">
+                    <div class="layer">
+                        <h3>Calculator</h3>
+                        <p>Here this calculator we can use basic operations of calculations like Addition, Subtraction, Multiplication, Division and this calculation operations fully woring and intreactive, In this calculator project I'M using HTML CSS Javascript.</p>
+                        <a href="https://calculator-one-orpin-31.vercel.app/"><i class="fas fa-external-link-alt"></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="/images/work-image (2).jpg">
+                    <div class="layer">
+                        <h3>Weather Application</h3>
+                        <p>Get real-time weather updates and forecasts with our intuitive and user-friendly weather app, built with Angular. Plan your day, week, or month with confidence, and stay informed about weather conditions in your area.
+                        </p>
+                        <a href="#"><i class="fas fa-external-link-alt"></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="/images/work-image (3).jpg">
+                    <div class="layer">
+                        <h3>TO-DO List</h3>
+                        <p>In this To-Do List app we can store the daily works and tasks, here we can store the datas using localstorage when we return page again the localstorage get the datas to display, This app use full for do tha all works without missing, In this To-DO List made by HTML CSS Javascript.</p>
+                        <a href="#"><i class="fas fa-external-link-alt"></i></a>
+                    </div>
+                </div>
+            </div>
+            <a href="https://github.com/Watson-Gopinath" class="btn">See more</a>
+        </div>
+    </div>
+    <div id="contact">
+        <div class="container">
+            <div class="row">
+                <div class="contact-left">
+                    <h1 class="sub-title">Contact Me</h1>
+                    <p><i class="fa-sharp fa-solid fa-paper-plane"></i><a href="watsongopigopi@gmail.com">watsongopigopi@gmail.com</a></p>
+                    <p><i class="fas fa-phone-square-alt"></i><a href="tel:6382926449">6382926449</a></p>
+                    <div class="scoial-icons">
+                        <a href=""><i class="fa-brands fa-facebook"></i></a>
+                        <a href="https://www.linkedin.com/in/me/"><i class="fa-brands fa-linkedin"></i></a>
+                        <a href=""><i class="fa-brands fa-twitter-square"></i></a>
+                    </div>
+                    <a href="images/Resume.pdf" download class="btn btn2">Download CV</a>
+                </div>
+                <div class="contact-right">
+                    <form name="submit-to-google-sheet">
+                        <input type="text" name="Name" id="" placeholder="Your Name" required>
+                        <input type="email" name="Email" id="" placeholder="Your Email" required>
+                        <textarea name="Message" id="" rows="6" placeholder="Your Message"></textarea>
+                        <button type="submit" class="btn btn2">submit</button>
+                    </form>
+                    <span id="msg"></span>
+                </div>
+            </div>
+        </div>
+        <div class="copyright">
+            <p>Copyright &copy; Gopinath N. Made with My Creation<i class="fa-solid fa-heart"></i> </p>
+        </div>
+    </div>
+
+    <script>
+        var tablinks = document.getElementsByClassName('tab-links');
+        var tabcontents = document.getElementsByClassName('tab-contents');
+
+        function opentab(tabname) {
+            for (tablink of tablinks) {
+                tablink.classList.remove('active-link');
+            };
+            for (tabcontent of tabcontents) {
+                tabcontent.classList.remove('active-tab');
+            };
+            event.currentTarget.classList.add('active-link');
+            document.getElementById(tabname).classList.add('active-tab');
+        }
+    </script>
+    <script>
+        var sidemenu = document.getElementById("sidemenu");
+
+        function openmenu(){
+            sidemenu.style.right = "0";
+        }
+        function closmenu(){
+            sidemenu.style.right = "-200px";
+        }
+    </script>
+
+<script>
+    const scriptURL = 'https://script.google.com/macros/s/AKfycbyr5T2MfVv0BCpJ2TA-H4G0mwFsz1wKwfB5O3PWJcC-qtQcR-hNAy0UpQgDZVukZed1sw/exec'
+    const form = document.forms['submit-to-google-sheet']
+    const msg = document.getElementById("msg")
+  
+    form.addEventListener('submit', e => {
+      e.preventDefault()
+      fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+        .then(response => {
+            msg.innerHTML="Message sent successfully"
+            setTimeout(function(){
+                msg.innerHTML=""
+            },5000)
+            form.reset()
+        })
+        .catch(error => console.error('Error!', error.message))
+    })
+  </script>
+
+</body>
+
+</html>
